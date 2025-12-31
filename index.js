@@ -15,10 +15,10 @@ app.listen(5000, () => {
 // Database connection
 const db = mysql.createPool({
   port: 3306,
-  host: "localhost",
+  host: "mysql.railway.internal",
   user: "root",
-  password: "",
-  database: "project",
+  password: "hqbzxSzHfjPoNDoMVOfAVIkHUmCtzCvO",
+  database: "railway",
 });
 
 // Test DB connection
